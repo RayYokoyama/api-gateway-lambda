@@ -7,4 +7,4 @@ phases:
       - yarn 
   build:
     commands:
-      - sls deploy --stage prod
+      - serverless deploy --stage prod
