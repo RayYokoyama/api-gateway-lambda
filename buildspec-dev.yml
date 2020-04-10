@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - yarn global add serverless
-      - yarn 
+      - yarn install
   build:
     commands:
       - serverless deploy

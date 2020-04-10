@@ -1,4 +1,3 @@
-org: kingreibit
 app: api-gateway-lambda-app
 service: api-gateway-lambda
 provider:
