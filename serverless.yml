@@ -1,0 +1,7 @@
+service: api-gateway-lambda
+provider:
+  name: aws
+  runtime: python3.7.6
+functions:
+  hello:
+    handler: handler.hello
