@@ -1,0 +1,8 @@
+{
+  "name": "api-gateway-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RayYokoyama/api-gateway-lambda.git",
+  "author": "ray_yokoyama <kingreibit@gmail.com>",
+  "license": "MIT"
+}
