@@ -1,0 +1,2 @@
+- lambda と api-gateway を学習するためのリポジトリ
+- codepipelineとcodebuildを連携して自動デプロイできるところまで実装する
