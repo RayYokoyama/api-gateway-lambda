@@ -1,3 +1,5 @@
+org: kingreibit
+app: api-gateway-lambda-app
 service: api-gateway-lambda
 provider:
   name: aws
@@ -6,4 +8,6 @@ functions:
   hello:
     handler: handler.hello
     events:
-      - https: GET greet
+      - http:
+          path: greet
+          method: get
