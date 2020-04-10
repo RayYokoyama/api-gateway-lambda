@@ -1,7 +1,9 @@
 service: api-gateway-lambda
 provider:
   name: aws
-  runtime: python3.7.6
+  runtime: python3.7
 functions:
   hello:
     handler: handler.hello
+    events:
+      - https: GET greet
