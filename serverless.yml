@@ -3,6 +3,8 @@ service: api-gateway-lambda
 provider:
   name: aws
   runtime: python3.7
+  role: "arn:aws:iam::615953452051:role/drl-link-company-lambda"
+
 functions:
   hello:
     handler: handler.hello
